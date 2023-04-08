@@ -1,0 +1,46 @@
+{
+  "name": "bachelorproef-webshop-solidjs",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@types/node": "latest",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-router": "^5",
+    "@types/react-router-dom": "^5",
+    "@webcomponents/webcomponentsjs": "2.4.3",
+    "acorn": "^8.8.2",
+    "babel-preset-solid": "^0.18.7",
+    "bachelorproef-app-shell": "file:../../bachelorproef-webshop-application/dist/emulator/bachelorproef-app-shell-1.1.0.tgz",
+    "piral-cli": "0.15.8",
+    "piral-cli-webpack5": "0.15.8",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-router": "^5",
+    "react-router-dom": "^5",
+    "solid-js": "0.18.7",
+    "tslib": "^2.3.1",
+    "typescript": "latest",
+    "vue": "^2.6.10"
+  },
+  "importmap": {
+    "imports": {},
+    "inherit": [
+      "bachelorproef-app-shell"
+    ]
+  },
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "pilet debug",
+    "build": "pilet build",
+    "upgrade-pilet": "pilet upgrade --force-overwrite yes",
+    "upgrade": "pilet upgrade"
+  }
+}

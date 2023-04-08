@@ -1,0 +1,43 @@
+.card {
+  margin: 1rem;
+  height: 450px;
+  padding: 1rem;
+  background-color: #f7faff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-weight: bold;
+  text-align: center;
+  font-size: large;
+}
+
+.card-text {
+  font-size:small;
+  color: #6c757d;
+}
+
+img {
+  margin: 0.5rem;
+  width:  150px;
+  height: 150px;
+  object-fit: contain;
+  align-self: center;
+  mix-blend-mode: multiply;
+}
+
+.coll {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-top: auto; 
+  flex:1;
+}
+
+.space {
+  align-items: flex-start;
+  flex: 1; /* make the div take up remaining vertical space */
+}
